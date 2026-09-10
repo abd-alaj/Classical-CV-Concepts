@@ -76,7 +76,6 @@ def line_detector(img):
     
     # Add the yellow circle marker at the peak of the LHT heatmap
     # We use the actual values from the theta and rho arrays based on the detected indices
-    # FIX: Use index to get the actual rho value
     ax_acc.plot(theta[theta_max_idx], rho[rho_max_idx], 'o', fillstyle='none', color='yellow', markersize=10)
     
     ax_acc.set_title('Line Hough Space Heatmap')

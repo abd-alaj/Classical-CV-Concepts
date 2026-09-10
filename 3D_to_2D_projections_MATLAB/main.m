@@ -1,5 +1,7 @@
 clear; close all; 
 
+% TODO: rewrite this in python to be cohesive with all other projects in repo
+
 % create the csv and figures folder
 if ~exist('csv_files', 'dir')
     mkdir('csv_files');
